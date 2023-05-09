@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Work3</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <caption style="font-size:large ;" > <B>Travel reservation form</B> </caption>
+
+            <br>
+
+            <tr><td> <strong>* denotes mandatory</strong></td></tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="FN">Full name*: </label> <br>
+                    <input type="text" name="FN" id="FN" placeholder="Firstname Lastname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="EA">Email address*:</label> <br>
+                    <input type="email" name="EA" id="EA" placeholder="EMAIL Address">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="STP">select Tour Package*:</label> <br>
+                    <select name="STP" id="STP">
+                        <option value="Goa">Goa</option>
+                        <option value="Chennai">Chennai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="AD">ArrivalDate*:</label> <br>
+                    <input type="date" name="AD" id="AD">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="NP">Number of persons*:</label> <br>
+                    <input type="number" name="NP" id="NP">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Avail">What Would you Want to avail?</label> <br>
+                     Boarding<input type="checkbox" name="Avail" id="Avail"> <br>
+                      Fooding<input type="checkbox" name="Avail" id="Avail"> <br>
+                     Sight seeing<input type="checkbox" name="Avail" id="Avail"> <br>
+   
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="DCC">Discount Coupon Code:</label> <br>
+                    <input type="number" name="DCC" id="DCC">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="TC">Terms and conditions</label> <br>
+                    <input type="radio" name="TC" id="TC">I agree
+                    <input type="radio" name="TC" id="TC">I disagree
+                </td>
+            </tr>
+
+            <tr>
+                <td><button>complete reservation</button></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
